@@ -1,0 +1,13 @@
+PORT=9000
+SOLACE_ENDPOINT=amqp://solace.edge.svc.cluster.local:5672
+SOLACE_QUEUE=radium3,radium2
+SOLACE_USERNAME=cornerstone
+SOLACE_PASSWORD=LikeABosch123
+
+INFLUXDB_USERNAME=admin
+INFLUXDB_PASSWORD=admin
+INFLUXDB_URL=http://influxdb.edge.svc.cluster.local:8086
+INFLUXDB_RETENTION_POLICY=autogen
+INFLUXDB_DATABASE=measurementdb
+#here he have to set consumer or producer
+ACTIVE_PROFILES=consumer
